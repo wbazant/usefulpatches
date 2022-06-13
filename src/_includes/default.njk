@@ -37,6 +37,27 @@
     <link rel="stylesheet" href="{{ '/site.css' | url }}" />
   </head>
 
+  <div class="navbar bg-base-100">
+    <div class="flex-1 font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl"><span class="lowercase">useful</span> <span class="text-base-content lowercase">patches</span></div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal p-0">
+        <li><a href="/team">Our Team</a></li>
+        <li><a href="/services">Services</a></li>
+        <li tabindex="0">
+          <a>
+            Articles
+            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+          </a>
+          <ul class="p-2 bg-base-100">
+            <li><a href="/resources/how-to-identify-plants">How to identify plants</a></li>
+            <li><a href="/resources/useful-and-medicinal-plants">Useful and medicinal plants</a></li>
+          </ul>
+        </li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
   <body class="font-sans leading-normal tracking-normal text-gray-900">
     {{ content | safe }}
   </body>
