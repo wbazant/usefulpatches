@@ -4,24 +4,21 @@ layout: default
 
 # Our team
 
-*Wojtek Bazant* is a landscaper, a keen naturalist, and a certified permaculture designer. He started Useful Patches after a career in life sciences.
+*Wojtek Bazant* is a landscaper, a keen naturalist, and a trained permaculture designer. He started Useful Patches after a software career in life sciences.
 
-## Interests
-Wojtek approaches plants with a very functional view - the components they are made of, interactions they have with each other, the role they have in their ecosystems, and their potential to enrich our lives.
-
+Wojtek believes that a genuinely successful landscape design requires an understanding of what makes plants grow well, and tries to maintain an adequate background in several disciplines:
 - soil science, for a view of how nutrients are made available to plants and how different organisms living in the soil interact with each other
-- ecology (the study of ecosystems) so
-- botany so
-- 
+- botany, for a recognition of what is currently growing in a space and what else might thrive in it
+- ecology (the study of ecosystems) to see groups of plants as an aggregated whole and guide transitions in the space
+- agronomy and horticulture, to the extent large-scale practices can be applied in a non-commercial garden
 
-Wojtek also keeps in touch with mainstream landscaping press and video content, but he finds that function-focused design does not typically need much modification to be visually satisfying. 
+As a gardener, Wojtek likes being productive: growing crops for own and community use, plant propagation, or improving long-term cultivation potential. You might catch him occasionally growing flowers, but that's just to stay on good terms with local pollinators.
 
-his usual approach to creating visually satisfying designs is to start arranging elements according to function - tanto make sure his designs are also visually satisfying, but he fis usual process of designing around function and adding a sprinkle of common sense 
+Wojtek has a practical approach to balancing different qualities required of an edible landscape. He focuses on introducing design elements in the order of delight they may deliver in locations where they might thrive, keeps an eye on implementation budget, and stays clear of combinations that would be difficult to maintain or inadequate from perspective of visual attractiveness. He observes what landscapers typically do in gardens around Glasgow and reads landscaping press, but his main reference on what plant arrangements are likely to feel life-affirming is the late architect Christopher Alexander.
 
-To make sure his designs are also satisfying visually, Wojtek finds that designing around function and combining it with a sprinkle of common sense 
+## Short bio
+Wojtek grew up in one of the most agriculturally active areas in Poland and spent many summers climbing fruit trees and helping his grandma make jam. He moved abroad in 2008 to study and work, moved around a few different places, and set up many short-term backyard gardens. In 2015 he settled in Cambridge for his first life sciences job, and got involved in community gardening. This has eventually put him in a leadership role of an edible growing project, Cambridge Growing Spaces, which Wojtek ran until 2019.
 
- visually satisfying designs, designing around function and a
+Wojtek started learning about permaculture around 2018 when helping his parents with an orchard garden. It was a productive space offering a number of yields to their cake shop business, but it was becoming increasingly affected by changes in growing conditions. Dropping water table, less abundant rainfall, and higher average temperatures meant an increased number of hot and dry periods during the months that are warmest in Poland - June and July - and it became increasingly difficult to maintain the garden. Wojtek was able to copy a number of techniques developed by permaculturalists in Australia - primarily, slowing down runoff through small earthworks, increasing organic matter content of soil, introducing mulching, and increased focus on perennials - which made the garden easier to maintain, but also a better place for nature.
 
-## Bio
-
-Wojtek 
+Wojtek moved to Glasgow in 2021, and took a six month Permaculture Design Course in 2022. He is currently doing a number of projects in the Stanmore Road Community Garden, working on a shared tenement garden, running the Useful Patches digital infrastructure, and taking consultancy and design projects.
