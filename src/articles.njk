@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1 class="font-title mb-2 text-4xl font-extrabold sm:text-xl lg:text-3xl">
+  Articles
+</h1>
+
+<ul class="list-disc sm:text:lg lg:text-xl">
+{% for post in collections.articles %}
+  <li>
+    <a href="{{ post.url | url }}" class="link">{{ post.data.title }}</a>
+    <i>{{post.data.author}}</i>, 
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+  </li>
+{% endfor %}
+</ul>
