@@ -4,6 +4,12 @@ author: Wojtek Bazant
 title: Learning to identify plants
 ---
 
+## Introduction
+
+This is a short text about learning to identify plants. I will introduce you to a number of resources that I have been relying on.
+
+I aim to be able to tell something about plants I see around me most frequently. I also want to build up my ability to recognise plants that are edible, medicinal, or otherwise useful. Right now I am far behind an average member of forager or early agrarian societies that would have lived in our area in the past, but I hope to eventually catch up!
+
 ## Visual recognision
 
 Knowledge of the natural world used to be passed orally. A member of your community would point to a plant and tell you its name, and you could learn what it was for by observing others and listening to stories.
@@ -31,5 +37,5 @@ I have gotten a lot of benefit from Alexey Shipunov's [Introduction To Botany](h
 
 ## Reference books
 
-If you are comfortable with the language of botany and are able to describe characteristics like shape of leaves in a specimen, you can consult a reference book. *New flora of the British Isles* is a standard comprehensive text in Britain and covers over 4800 plants, though mostly without illustration. You can see which libraries have it available [https://www.worldcat.org/title/new-flora-of-the-british-isles/oclc/1089411862](here through WorldCat).
+If you are comfortable with the language of botany and are able to describe characteristics like shape of leaves in a specimen, you can consult a reference book. *New flora of the British Isles* is a standard comprehensive text in Britain and covers over 4800 plants, though mostly without illustration. You can see which libraries have it available [here through WorldCat](https://www.worldcat.org/title/new-flora-of-the-british-isles/oclc/1089411862).
 

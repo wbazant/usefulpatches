@@ -1,25 +1,35 @@
 ---
-layout: default
+layout: page
 ---
 
 
-<h1>{{ title }}</h1>
 
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+<div>
+  <p>
+    Written by: <i>{{author}}</i>
+  </p>
+  <p>
+  Last edited on: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+  </p>
+</div>
 
-<article class="prose lg:prose-xl">
-{{ content | safe }}
+<article class="prose lg:prose-lg">
+  {{ content | safe }}
 </article>
 
-{%- if collections.posts %}
-{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{%- if collections.articles %}
+{%- set nextPost = collections.articles | getNextCollectionItem(page) %}
+{%- set previousPost = collections.articles | getPreviousCollectionItem(page) %}
 {%- if nextPost or previousPost %}
+<div class="lg:text-lg py-8">
 <hr>
-<ul>
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-</ul>
+  <ul>
+    {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+    {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+    <li><a href="/articles">See all articles</a></li>
+  </ul>
+</div>
 {%- endif %}
 {%- endif %}
+
 
