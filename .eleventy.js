@@ -42,6 +42,7 @@ module.exports = function(eleventyConfig) {
 
   // Passthrough
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
+  eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
 
   // Watch targets
