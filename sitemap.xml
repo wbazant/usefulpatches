@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/usefulpatches/404.html</loc>
+    <loc>/404.html</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/articles/</loc>
+    <loc>/articles/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/articles/how-to-identify-plants/</loc>
+    <loc>/articles/how-to-identify-plants/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/articles/using-medicinal-plants/</loc>
+    <loc>/articles/using-medicinal-plants/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/faq/</loc>
+    <loc>/faq/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/</loc>
+    <loc>/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/our-team/</loc>
+    <loc>/our-team/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/our-team/wojtek-bazant/</loc>
+    <loc>/our-team/wojtek-bazant/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/services/</loc>
+    <loc>/services/</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
   
   <url>
-    <loc>/usefulpatches/site.webmanifest</loc>
+    <loc>/site.webmanifest</loc>
     <lastmod>2022-06-27</lastmod>
   </url>
 </urlset>
