@@ -1,0 +1,31 @@
+---
+  layout: page
+  title: Our Team
+---
+
+
+<div>
+  <div class="flex w-fill lg:w-3/4 ">
+    <div>
+      <br>
+      <h3 class="font-title p-2 font-bold sm:text-xl lg:text-3xl">
+        {{ teamMemberName }}
+      </h3>
+      <article class="prose lg:prose-lg text-justify px-2">
+        <div>
+          {{shortDescription }}
+        </div>
+        <br>
+        <div>
+          Interests: {{interests}}
+        </div>
+        {{ content | safe }}
+      </article>
+    
+    </div>
+    <div>
+      <img class="self-center lg:rounded-lg" src="{{imagePath | url}}"/>
+    </div>
+  </div>
+</div>
+

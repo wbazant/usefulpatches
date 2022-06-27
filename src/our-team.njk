@@ -1,0 +1,33 @@
+---
+layout: page
+title: Our Team 
+---
+
+{% for post in collections["our-team"] %}
+  <div class="flex w-fill lg:w-3/4 lg:rounded-box glass">
+    <div class="p-2">
+    <h3 class="font-title p-2 font-bold sm:text-xl lg:text-3xl">
+      {{ post.data.teamMemberName }}
+    </h3>
+    <p class="text-lg text-justify p-2">
+        {{post.data.shortDescription }}
+    </p>
+    <p class="text-lg text-justify p-2">
+        Interests: {{post.data.interests }}
+    </p>
+    
+    <a href="{{ post.url | url }}" class="link p-2">
+      Read more
+    </a>
+    </div>
+    <div>
+      <img class="self-center lg:rounded-r-lg" src="{{post.data.imagePath | url}}"/>
+    </div>
+  </div>
+{% endfor %}
+<br>
+<article class="prose text-justify">
+  <i>
+    We are looking to expand our team. If you have formal training as well as extensive experience in permaculture design, landscape design, organic agriculture, or horticulture, and would be interested in applying your skills in helping people bring their gardens to productive use, please <a href="/contact"> get in touch</a>!
+  </i>
+</article>
