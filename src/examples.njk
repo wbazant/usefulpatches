@@ -1,0 +1,16 @@
+---
+layout: page
+title: Examples 
+---
+
+Here are a few examples of what we mean by a useful patch: this is from a pattern library we are working on.
+
+
+<ul class="list-disc mx-4 sm:text:lg lg:text-xl">
+{% for post in collections.examples %}
+  <li>
+    <a href="{{ post.url | url }}" class="link">{{ post.data.title }}</a>
+    <div>{{post.data.functions}}</div>
+  </li>
+{% endfor %}
+</ul>

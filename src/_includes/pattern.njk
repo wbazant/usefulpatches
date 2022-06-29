@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+<div>
+  {{functions}}
+</div>
+
+<article class="prose lg:prose-lg">
+  {{ content | safe }}
+</article>
+
+{%- if collections.examples %}
+{%- set nextPost = collections.examples | getNextCollectionItem(page) %}
+{%- set previousPost = collections.examples | getPreviousCollectionItem(page) %}
+{%- if nextPost or previousPost %}
+<div class="lg:text-lg py-8">
+<hr>
+  <ul>
+    {%- if nextPost %}<li>Next: <a class="link" href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+    {%- if previousPost %}<li>Previous: <a class="link" href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+    <li><a href="/examples" class="link">See all examples</a></li>
+  </ul>
+</div>
+{%- endif %}
+{%- endif %}
+
+
