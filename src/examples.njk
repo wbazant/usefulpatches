@@ -10,7 +10,9 @@ Here are a few examples of what we mean by a useful patch: this is from a patter
 {% for post in collections.examples %}
   <li>
     <a href="{{ post.url | url }}" class="link">{{ post.data.title }}</a>
-    <div>{{post.data.functions}}</div>
+    {% for function in post.data.functions %}
+      <i class="p-1">{{function}}</i>
+    {% endfor %}
   </li>
 {% endfor %}
 </ul>

@@ -3,7 +3,10 @@ layout: page
 ---
 
 <div>
-  {{functions}}
+  Functions: 
+  {% for function in functions %}
+  <span class="p-1">{{function}}</span>
+  {% endfor %}
 </div>
 
 <article class="prose lg:prose-lg text-justify">

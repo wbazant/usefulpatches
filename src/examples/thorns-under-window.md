@@ -1,7 +1,9 @@
 ---
 layout: pattern
 title: Thorns under window
-functions: security, bits and bobs
+functions:
+- security
+- bits and bobs
 ---
 In a house with ground window that may serve as a point of entry when opened or broken, reduce risk of unauthorised entry by planting a shrubbery underneath {function: security}.
 
